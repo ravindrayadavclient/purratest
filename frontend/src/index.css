@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Space Mono", monospace;
+  src: url(./assets/font/Space_Mono/SpaceMono-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/AmazonEmber_Th.ttf)
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/AmazonEmber_Lt.ttf)
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/AmazonEmber_Rg.ttf)
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/Amazon-Ember-Medium.ttf)
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/AmazonEmber_Bd.ttf)
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url(./assets/font/Amazon_font/Ember/AmazonEmber_He.ttf)
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* end of fontStyle  */
+
+/* Remove Arrows/Spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+body {
+  background: #fff !important;
+}
